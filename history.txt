@@ -1,0 +1,512 @@
+summary(length_lm)
+len_vs_hw = lm(turtles$`shell length`~ turtles$breadth + turtles$height)
+len_vs_sex = lm(turtles$`shell length`~ turtles$sex)
+plot(length_lm)
+plot(len_vs_hw)
+plot(len_vs_sex)
+summary(len_vs_sex)
+summary(len_vs_hw)
+summary(length_lm)
+turtles$sex
+library(readxl)
+data = read.csv("C:\Users\Yazee\OneDrive\Desktop\UMD\Fall 2020\INST314/In Class Exercise Logit - Nov 11.xlsx")
+data = read.csv("C:/Users/Yazee/OneDrive/Desktop/UMD/Fall 2020/INST314/In Class Exercise Logit - Nov 11.xlsx")
+data = read_excel("C:/Users/Yazee/OneDrive/Desktop/UMD/Fall 2020/INST314/In Class Exercise Logit - Nov 11.xlsx")
+data
+model = glm(data$`Voted Democratic in 2020` ~ data$`Bachelor's degree or higher' + data$`Working age with a disability`, family="binomial")
+model = glm(data$`Voted Democratic in 2020` ~ data$`Bachelor's degree or higher' + data$`Working age with a disability`, family="binomial")
+model = glm(data$`Voted Democratic in 2020` ~ data$`Bachelor's degree or higher' + data$`Working age with a disability`, family="binomial")
+model = glm(data$`Voted Democratic in 2020` ~ data$`Bachelor's degree or higher' + data$`Working age with a disability`, family="binomial")
+model = glm(data$`Voted Democratic in 2020' ~ data$`Bachelor's degree or higher' + data$`Working age with a disability`, family="binomial")
+model = glm(data$`Voted Democratic in 2020` ~ data$`Bachelor's degree or higher`)
+model = glm(data$`Voted Democratic in 2020` ~ data$`Bachelor's degree or higher`, family="binomial")
+model
+model = glm(data$`Voted Democratic in 2020` ~ data$`Bachelor's degree or higher` \,family="binomial")
+model = glm(data$`Voted Democratic in 2020` ~ data$`Bachelor's degree or higher` ,family="binomial")
+View(model)
+View(model)
+View(model)
+View(model)
+View(data)
+model = glm(data$`Voted Democratic in 2020` ~ data$`Working age with a disability` + data$`Bachelor's degree or higher`, family="binomial")
+summary(model)
+exp(data$`Bachelor's degree or higher`)
+exp(model)
+exp(data$`Working age with a disability`)
+summary(model)
+exp(0.44569)
+set.seed(___)
+set.seed(_)
+set.seed(---)
+set.seed()
+set.seed(___)
+set.seed(4)
+Ax = rnorm(500, mean=10, sd=5)
+Bx = rnorm(500, mean=9, sd=14)
+Cx = runif(500, min=0, max=30)
+Dx = runif(500, min=0, max=50)
+summary(Ax)
+summary(Bx)
+summary(Cx)
+summary(Dx)
+hist(Ax)
+plot(density(Ax))
+qqnorm(Ax)
+hist(Bx)
+plot(density(Bx))
+qqnorm(Bx)
+hist(Cx)
+plot(density(Cx))
+qqnorm(Cx)
+hist(Dx)
+plot(density(Dx))
+qqnorm(Dx)
+AnB = Ax + Bx
+CnB = Cx + Bx
+AnBnCnD = Ax + Bx + Cx + Dx
+CtD = Cx * Dx
+hist(AnB)
+plot(density(AnB))
+qqnorm(AnB)
+hist(CnB)
+plot(density(CnB))
+qqnorm(CnB)
+hist(AnBnCnD)
+plot(density(AnBnCnD))
+qqnorm(AnBnCnD)
+hist(CtD)
+plot(density(CtD))
+qqnorm(CtD)
+Ax
+hist(AnB)
+plot(density(AnB))
+qqnorm(AnB)
+hist(CnB)
+plot(density(CnB))
+qqnorm(CnB)
+hist(AnBnCnD)
+plot(density(AnBnCnD))
+qqnorm(AnBnCnD)
+hist(CtD)
+plot(density(CtD))
+qqnorm(CtD)
+hist(Ax)
+plot(density(Ax))
+qqnorm(Ax)
+hist(Bx)
+plot(density(Bx))
+qqnorm(Bx)
+hist(Cx)
+plot(density(Cx))
+qqnorm(Cx)
+hist(Dx)
+plot(density(Dx))
+qqnorm(Dx)
+library(readxl)
+data = read_excel("C:/Users/Yazee/OneDrive/Desktop/Lab 8/Logit dataset.xlsx")
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +)
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years` +
+data$`Married-couple family`)
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years` +
+data$`Married-couple family`, family="binomial")
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years` +
+data$`Married-couple family`, family="binomial")
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years` +
+, family="binomial")
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years`
+, family="binomial")
+summary(model)
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years`)
+summary(model)
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years`
+,family="binomial")
+model
+summary(model)
+summary(model)
+exp(model)
+exp(-2.028e+03)
+exp(1.994e+01)
+exp(1.728e+01)
+exp(-1.753e+01)
+exp(4.188e+01)
+exp(5.163e+01)
+exp(-8.931e+00)
+exp(-8.552e+01)
+exp(2.509e+01)
+exp(-1.205e+01)
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years`
+,family="binomial")
+model <- glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years`
+,family="binomial")
+library(car)
+install.packages(car)
+install.packages()
+library(carl)
+library(car)
+scatterplotMatrix(data[,1:], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,1:44], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,1:43], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,1:40], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,1:4], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:4], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:2], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:44], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:10], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:5], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:3], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:4], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(model[,2:4], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(model[,2:3], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(model[,2:10], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(model[,1:10], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(model[,1:9], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(model, diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,5:4], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:3], diagonal = TRUE, smooth = TRUE)
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years`
+,family="binomial")
+data = read_excel("C:/Users/Yazee/OneDrive/Desktop/Lab 8/Logit dataset.xlsx")
+data = read_excel("C:/Users/Yazee/OneDrive/Desktop/Lab 8/Logit dataset.xlsx")
+model = glm(data$`Voted Democratic in 2020` ~
+data$`Bachelor's degree or higher` +
+data$`Less than HS` +
+data$`Female Divorced` +
+data$`Never married` +
+data$`Males Divorced` +
+data$`Males Never married` +
+data$`Households with one or more people 65 years and over` +
+data$`Single Mom With own children of the householder under 18 years` +
+data$`Single Dad with children of the householder under 18 years` +
+data$`Married couple With own children of the householder under 18 years`
+,family="binomial")
+summary(model)
+summary(model)
+scatterplotMatrix(data[,2:9], diagonal = TRUE, smooth = TRUE)
+data
+data = read_excel("C:/Users/Yazee/OneDrive/Desktop/Lab 8/Logit dataset.xlsx")
+data
+scatterplotMatrix(data[,2:5], diagonal = TRUE, smooth = TRUE)
+scatterplotMatrix(data[,2:6], diagonal = TRUE, smooth = TRUE)
+library(readxl)
+Vids = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\UMD\\Fall 2020\\INST314\\Labs\\Lab 12\\Lab12.4data.xlsx")
+Vids
+vids = Vids
+vids
+View(Vids)
+n = length(vids$Views)
+B = 10000
+Testobs = abs(mean(vids$Views[vids$Host == "Jane"]) - mean(vids$Views[vids$Host == "John"]))
+testobs
+Testobs
+Bootviews = matrix(sample(vids$Views, size = n*B, replace = TRUE), nrow = n, ncol = B)
+boot.test.stat = rep(0, B)
+for (i in 1:B){}
+for (i in 1:B){
+boot.test.stat[i] = abs(mean(Bootviews[1:100, i]) - mean(Bootviews[101:200, i]))
+}
+boot.test.stat >= Testobs
+mean(boot.test.stat >= Testobs)
+library(readxl)
+vids = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\UMD\\Fall 2020\\INST314\\Labs\\Lab 12\\Lab12.4data.xlsx")
+n = length(vids$Views)
+B = 10000
+Testobs = abs(mean(vids$Views[vids$Host == "Jane"]) -
+mean(vids$Views[vids$Host == "John"]))
+Testobs
+Bootviews = matrix(sample(vids$Views, size=n*B, replace=TRUE), nrow=n, ncol=B)
+Boot.test.stat = rep(0, B)
+for(i in 1:B){
+Boot.test.stat[i] = abs(mean(Bootsviews[1:100, i]) -
+mean(Bootsviews[101:200, i]))
+}
+for(i in 1:B){
+Boot.test.stat[i] = abs(mean(Bootviews[1:100, i]) -
+mean(Bootviews[101:200, i]))
+}
+Boot.test.stat >= Testobs
+mean(Boot.test.stat >= Testobs)
+Bootmeans = rep(0, B)
+for (i in 1:B){
+Bootmeans[i] = mean(Bootviews[,i])
+}
+hist(Bootmeans)
+ci = c(mean(Bootmeans) - 1.96 * sd(Bootmeans),
+mean(Bootmeans), mean(bootmeans) + sd(Bootmeans) * 1.96)
+ci = c(mean(Bootmeans) - 1.96 * sd(Bootmeans),
+mean(Bootmeans), mean(Bootmeans) + sd(Bootmeans) * 1.96)
+cifreq = c(quantile(Bootmeans, probs= 0.025),
+quantile(Bootmeans, probs = 0.975))
+ci
+cifreq
+library(readxl)
+brazil = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\Brazil.xlsx")
+hist(brazil)
+hist(brazil$`Matches Played`)
+n = length(brazil$`Matches Played`)
+B = 10000
+Testobs = abs(mean(brazil$`Matches Played`))
+load("C:/Users/Yazee/OneDrive/Desktop/314/bootstrap_code.Rhistory")
+library(readxl)
+brazil = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\Brazil.xlsx")
+hist(brazil)
+hist(brazil$`Matches Played`)
+n = length(brazil$`Matches Played`)
+B = 10000
+Testobs = abs(mean(brazil$`Matches Played`))
+library(readxl)
+brazil = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\brazil.xlsx")
+brazil
+brazil$Team...2
+n = length(brazil$Team...1)
+BRAvsFRA = abs(mean(brazil$`Matches Played`[brazil$Team...2 == "Brazil"]) - mean(brazil$`Matches Played`[brazil$Team...2 == "France"]))
+BRAvsGER = abs(mean(brazil$`Matches Played`[brazil$Team...2 == "Brazil"]) - mean(brazil$`Matches Played`[brazil$Team...2 == "Germany"]))
+BRAvsITA = abs(mean(brazil$`Matches Played`[brazil$Team...2 == "Brazil"]) - mean(brazil$`Matches Played`[brazil$Team...2 == "Italy"]))
+BRAvsSPA = abs(mean(brazil$`Matches Played`[brazil$Team...2 == "Brazil"]) - mean(brazil$`Matches Played`[brazil$Team...2 == "Spain"]))
+BRAvsFRA
+BRAvsGER
+BRAvsITA
+BRAvsSPA
+Bootviews = matrix(sample(brazil$`Matches Played`, size=n*B, replace=TRUE), nrow=n, ncol=B)
+B = 10000
+Bootviews = matrix(sample(brazil$`Matches Played`, size=n*B, replace=TRUE), nrow=n, ncol=B)
+Boot.test.stat = rep(0, B)
+for(i in 1:B){}
+brazil$`Matches Played`[1:14]
+brazil$`Matches Played`[1:13]
+brazil$`Matches Played`[1:4]
+brazil$`Matches Played`[1:5]
+brazil$`Matches Played`[brazil$Team...2 == "Brazil"]
+brazil$`Matches Played`[brazil$Team...2 == "Brazil"] + brazil$`Matches Played`[brazil$Team...2 == "France"]
+boot_FRA = matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "France"])), nrows=n, ncols=B)
+matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "France"])), nrows=n, ncols=B)
+matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "France"]), size=n*B, replace=TRUE), nrows=n, ncols=B)
+boot_FRA = matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "France"]), size=n*B, replace=TRUE), nrow=n, ncol=B)
+boot_GER = matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Germany"]), size=n*B, replace=TRUE), nrow=n, ncol=B)
+boot_ITA = matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Italy"]), size=n*B, replace=TRUE), nrow=n, ncol=B)
+boot_SPA = matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Spain"]), size=n*B, replace=TRUE), nrow=n, ncol=B)
+boot.test.FRA = rep(0, B)
+boot_FRA = matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "France"]), size=n*B, replace=TRUE), nrow=length(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "France"])), ncol=B)
+boot_GER =
+matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Germany"]), size=n*B, replace=TRUE), nrow=length(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Germany"])), ncol=B
+)
+boot_ITA = matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Italy"]), size=n*B, replace=TRUE), nrow=length(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Italy"])), ncol=B)
+boot_SPA = matrix(sample(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Spain"]), size=n*B, replace=TRUE), nrow=length(c(brazil$`Matches Played`[brazil$Team...2 == "Brazil"], brazil$`Matches Played`[brazil$Team...2 == "Spain"])), ncol=B)
+for(i in 1:B){
+boot.test.FRA[i] = abs(mean(boot_FRA[1:5,i]) - mean(boot_FRA[5:,i]))
+}
+for(i in 1:B){
+boot.test.FRA[i] = abs(mean(boot_FRA[1:5,i]) - mean(boot_FRA[5:,i]))
+}
+for(i in 1:B){
+boot.test.FRA[i] = abs(mean(boot_FRA[1:5,i]) - mean(boot_FRA[5:13,i]))
+}
+boot.test.GER = rep(0, B)
+boot.test.ITA = rep(0, B)
+boot.test.SPA = rep(0, B)
+for(i in 1:B){
+boot.test.GER[i] = abs(mean(boot_GER[1:5,i]) - mean(boot_GER[5:10,i]))
+}
+for(i in 1:B){
+boot.test.ITA[i] = abs(mean(boot_ITA[1:5,i]) - mean(boot_ITA[5:10,i]))
+}
+for(i in 1:B){
+boot.test.SPA[i] = abs(mean(boot_SPA[1:5,i]) - mean(boot_SPA[5:10,i]))
+}
+Boot.test.FRA >= BRAvsFRA
+boot.test.FRA >= BRAvsFRA
+mean(boot.test.FRA >= BRAvsFRA)
+mean(boot.test.GER >= BRAvsGER)
+mean(boot.test.ITA >= BRAvsITA)
+mean(boot.test.SPA >= BRAvsSPA)
+FRA_means = (0, B)
+FRA_means = (0, B)
+FRA_means = (0, B)
+FRA_means = rep(0, B)
+GER_means = rep(0, B)
+ITA_means = rep(0, B)
+SPA_means = rep(0, B)
+for(i in 1:B){
+FRA_means[i] = mean(boot_FRA[,i])
+}
+for(i in 1:B){
+GER_means[i] = mean(boot_GER[,i])
+}
+for(i in 1:B){
+ITA_means[i] = mean(boot_ITA[,i])
+}
+for(i in 1:B){
+SPA_means[i] = mean(boot_SPA[,i])
+}
+hist(FRA_means)
+hist(BRA_means)
+hist(GER_means)
+hist(ITA_means)
+hist(SPA_means)
+ci_FRA = c(mean(FRA_means) - 1.96 * sd(FRA_means),
+mean(FRA_means), mean(FRA_means) + sd(FRA_means) * 1.96)
+ci_FRA
+ci_GER = c(mean(GER_means) - 1.96 * sd(GER_means),
+mean(GER_means), mean(GER_means) + sd(GER_means) * 1.96)
+ci_ITA = c(mean(ITA_means) - 1.96 * sd(ITA_means),
+mean(ITA_means), mean(ITA_means) + sd(ITA_means) * 1.96)
+ci_SPA = c(mean(SPA_means) - 1.96 * sd(SPA_means),
+mean(SPA_means), mean(SPA_means) + sd(SPA_means) * 1.96)
+ci_FRA
+ci_GER
+ci_ITA
+ci_SPA
+library(readxl)
+teams = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\314\\teams.xlsx")
+teams
+library(readxl)
+teams = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\314\\teams.xlsx")
+teams
+BRA_lm = lm(teams$`BRA WC Results` ~ teams$BRA_inter_results)
+BRA_lm = lm(teams$`BRA WC Results` ~ teams$BRA_inter_results)
+BRA_lm
+BRA_lm = lm(teams$`BRA WC Score Difference` ~ teams$BRA_inter_score_diff)
+summary(BRA_lm)
+BRA_lm = lm(teams$`BRA WC Score Difference` ~ teams$BRA_inter_score_diff + teams$BRA_inter_results)
+summary(BRA_lm)
+BRA_lm = lm(teams$`BRA WC Results` ~ teams$BRA_inter_score_diff + teams$BRA_inter_results)
+BRA_lm = lm(teams$`BRA WC Score Difference` ~ teams$BRA_inter_score_diff + teams$BRA_inter_results)
+FRA_lm = lm(teams$FRA_wc_score_diff ~ teams$FRA_inter_results + teams$FRA_inter_score_diff)
+GER_lm = lm(teams$GER_wc_score_diff ~ teams$GER_inter_results + teams$GER_inter_score_diff)
+ITA_lm = lm(teams$ITA_wc_score_diff ~ teams$ITA_inter_results + teams$ITA_inter_score_diff)
+SPA_lm = lm(teams$SPA_wc_score_diff ~ teams$SPA_inter_results + teams$SPA_inter_score_diff)
+summary(BRA_lm)
+summary(FRA_lm)
+summary(GER_lm)
+summary(ITA_lm)
+summary(SPA_lm)
+plot(BRA_lm)
+plot(FRA_lm)
+plot(GER_lm)
+plot(ITA_lm)
+plot(SPA_lm)
+plot(density(GER_lm))
+plot(density(teams$`BRA WC Score Difference`))
+plot(density(teams))
+plot(density(teams$`BRA WC Results`))
+plot(density(teams$FRA_wc_score_diff))
+teams = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\314\\Brazil.xlsx")
+teams = read_excel("C:\\Users\\Yazee\\OneDrive\\Desktop\\314\\Brazil.xlsx")
+teams
+pairs(teams[,3:6])
+pairs(teams[,3:6], density=TRUE, lm=TRUE)
+pairs(teams[,3:6], density=TRUE)
+pairs(teams[,3:6], lm=TRUE)
+pairs(teams[,3:6])
+pairs(teams[,3:6])
+pairs(teams[,3:6])
+pairs(teams[,3:6], density=TRUE)
+pairs(teams[,3:6])
+warnings()
+pairs.panels(teams[,3:6], density=TRUE)
+View(GER_lm)
+savehistory("C:/Users/Yazee/OneDrive/Desktop/314/lm_final.Rhistory")
+savehistory("C:/Users/Yazee/OneDrive/Desktop/history.txt")
